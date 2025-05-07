@@ -22,7 +22,7 @@ On *nix systems, the following dependencies need to be present & can be installe
 # Installation 
 - Clone the repo 
  ```
-git clone https://github.com/NilFoundation/crypto3-template.git
+git clone https://github.com/alloc-init/crypto3-template.git
 cd crypto3-template
 ```
 
