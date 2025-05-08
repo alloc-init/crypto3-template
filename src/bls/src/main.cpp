@@ -38,7 +38,6 @@ using namespace nil::crypto3;
 using namespace nil::crypto3::algebra;
 using namespace nil::crypto3::pubkey;
 using namespace nil::crypto3::hashes;
-using namespace boost::multiprecision;
 
 using curve_type = curves::bls12_381;
 using scheme_type = bls<bls_default_public_params<>, bls_mss_ro_version,

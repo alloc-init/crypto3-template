@@ -1,0 +1,6 @@
+{
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/libs/crypto3/libs/**/include",
+        "/opt/homebrew/opt/boost/include"
+    ]
+}

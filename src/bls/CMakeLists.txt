@@ -9,7 +9,7 @@ set(C3_TARGET "bls_sig")
 # list cpp files excluding platform-dependent files
 list(APPEND ${CMAKE_PROJECT_NAME}_SOURCES src/main.cpp)
 
-find_package(Boost COMPONENTS random)
+find_package(Boost COMPONENTS random unit_test_framework)
 
 add_executable(${C3_TARGET}
                ${${CMAKE_PROJECT_NAME}_HEADERS}
